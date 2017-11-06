@@ -1,0 +1,107 @@
+body{
+	background-image: url('../img/fondo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+
+}
+/*contenedor ruleta y contenedor bola*/
+#contenedor{
+	position: fixed;
+	width: 600px;
+	height: 600px;
+	background-image: url('../img/ruleta.png');
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-position: top center;
+	top: 150px;
+	left: 930px;
+}
+/*contenedor bola*/
+#bola{
+	position: absolute;
+	width: 445px;
+	height: 445px;
+	top:80px;
+	left: 72px;
+	background-image: url('../img/bola.png');
+	background-repeat: no-repeat;
+	background-position:14px 210px;
+	background-size:9%;
+	border-radius:100%;
+
+}
+
+/*contendor cartas*/
+#contenedorCartas{
+	width: 200px;
+	height: 100px;
+
+}
+
+
+
+/*#contenedor:hover{
+	transform: rotate(900deg);
+	transition: 15s;
+}
+*/
+
+/*div carta y efectos*/
+#baraja, #carta{
+	position: absolute;
+	width: 130px;
+	height: 150px;
+	top:170px;
+	right:1300px;
+}
+#baraja img, #carta img{
+	width: 100%;
+}
+
+
+
+/*fin estilos contenedor cartas*/
+
+
+
+/*#contenedor:hover #bola{
+	transform: rotate(9000deg);
+	transition: 20s;
+}*/
+
+/*estilo boton*/
+button{
+  position: fixed;
+  bottom: 5%;
+  left: 50%;	
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0174DF;
+  border: none;
+  border-radius: 15px;
+}
+
+button:hover {background-color:#819FF7}
+
+button:active {
+  background-color:#2E64FE;
+  transform: translateY(4px);
+}
+
+#pedir{
+    position: absolute;
+	left:40%;
+
+}
+
+#img:hover{
+	width: 120%;
+}

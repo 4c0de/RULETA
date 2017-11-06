@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!--link css-->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+     
+
+    </head>
+    <body>
+      <!--etiqueta audio ejecutar desde javascript sonido ruleta-->
+      <audio id="sonido">
+          <source src="audio/ruleta.mp3" type=" audio/mpeg">
+             Tu navegador no soporta elementos de audio.
+      </audio>
+      <!--contenedor ruleta y bola-->
+    	<div id="contenedor">
+    		<div id="bola"></div>
+      </div>
+      <button id="lanzar">JUGAR</button>
+      <button id="pedir">CARTA</button>
+      <!--envoltorio cartas-->
+      <div id="contenedorCartas">
+          <div id="baraja">
+                <img id="uno" src="img/0.png">
+          </div>
+          <div id="carta"></div>
+                
+         
+      </div>
+    <!--link javascript-->   
+    <script src="js/js.js"></script>
+    </body>
+</html>
